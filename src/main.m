@@ -10,4 +10,5 @@ while(True):    % Taking Realtime images continuously.
   image(picture_name);    % Display the image taken by webcam.
   title(char(new_label));   % Assigning the title to the image taken by webcam at runtime (Realtime).
   drawnow;
+  
 end
